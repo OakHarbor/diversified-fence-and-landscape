@@ -10,6 +10,39 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+.tabs {
+    text-align: center;
+    margin: auto;
+}
+.active-tab {
+    background: #1aad26 !important;
+    color: #fff !important;
+}
+.port {
+    margin-bottom: 30px;
+}
+
+#home-page {
+    display: block !important;
+    width: 93% !important;
+    margin: auto;
+    margin-bottom: 3px;
+}
+
+.link {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 30%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
 .hamburger {
     padding: 0;
     display: inline-block;
@@ -361,6 +394,10 @@ h1, h2, h3, h4, h5, h6 {
         margin: auto;
     }
 
+    #home-page {
+        width: 605px !important;
+    }
+
     .mobile-wrapper img {
         top: 67px !important;
     }
@@ -391,6 +428,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
+
+    .tabs {
+        display: none !important;
+    }
 
     /* Hidden Elements */
 	.mobile-wrapper {
