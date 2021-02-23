@@ -12,11 +12,12 @@
 
         gtag('config', 'UA-137702322-26');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,6 +37,42 @@
 
 <body>
 
+    <header>
+        <!-- Desktop Navbar -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container mobile-nav-container">
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class="side-nav">
+
+
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a class="active-menu nav-link" href="/index.html">Home</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/cement-projects.html">Cement Projects</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/fence-projects.html">Fence Projects</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/graphic-design.html">Graphic Design</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/ornamental-iron-works.html">Iron Work</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/pavers-and-hardscapes.html">Pavers & Harscapes</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/html/sod-and-turf.html">Sod & Turf</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div aria-hidden="true" class="dark"></div>
 
     <section id="hero">
@@ -44,6 +81,7 @@
         <div class="container hero-content">
             <div class="heroText">
                 <h1 id="home-h">Diversified Tree Services<img aria-hidden="true" class="island" src="/island.png" alt=""></h1>
+                <p class="license">Lic. #089181</p>
                 <button class="portfolio button">Portfolio</button>
                 <h2 id="home-p">"We offer fast and affordable tree services for all of San Diego County."</h2>
                 <button aria-label="click to contact page" class="button-transparent about-button desktop-call" onclick="location.href='tel:619-547-3687'" type="button">
