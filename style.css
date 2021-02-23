@@ -135,6 +135,8 @@ a:hover {
 
 }
 
+
+
 .heroText {
 	padding-top: 0;
     position: relative;
@@ -145,6 +147,9 @@ a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-transform: translateY(-88px);
+        -ms-transform: translateY(-88px);
+            transform: translateY(-88px);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -152,16 +157,6 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-animation-name: fadeIn;
-            animation-name: fadeIn;
-    -webkit-animation-duration: 1.3s;
-            animation-duration: 1.3s;
-    -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
-    -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fadeIn {
