@@ -51,7 +51,7 @@ a:hover {
 #hero {
     min-height: calc(100vh - 50px);
     width: 100%;
-    background: url("image-6-bottom.jpg");
+    background: url("yard.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
