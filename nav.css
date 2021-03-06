@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
 }
 
-#home-page {
+#home-page, .block {
     display: block !important;
     width: 93% !important;
     margin: auto;
@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     font-size: 12px;
     margin-bottom: 3px;
+}
+
+.block {
+    width: 93%;
+    display: block;
+    margin: auto;
 }
 
 .hamburger {
